@@ -1,0 +1,103 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    box-shadow: 0px 0px 0px black;
+}
+.cart-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td{
+    margin: 0px 10px;
+}
+table th{
+    font-size: 20px;
+   
+}
+table tr{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.image img{
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+.image img:hover{
+    transform: scale(1.2);
+    border-radius: 100%;
+}
+.name{
+    text-align: center;
+    width: 20%;
+}
+.price{
+    text-align: center;
+    width: 20%;
+}
+.quantity{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2.5rem;
+}
+.quantity input{
+    align-self: center;
+    width: 30%;
+
+}
+.subtotal{
+    text-align: center;
+}
+.payment{
+    width: 54%;
+    margin: auto;
+}
+h4{
+    text-align: start;
+    font-size: 25px;
+}
+h6{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.payment input{
+    border: 1px solid #472b23;
+    height: 22px;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 0px 10px;
+}
+.payment .apply-button{
+    background-color: green;
+    padding: 5px 10px;
+    margin: 0px;
+    border: 1px solid green;
+}
+.payment .apply-button:hover{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+button{
+    padding: 7px 14px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border: 0px;
+    border-radius: 4px;
+    margin: 1rem 0px;
+    border: 1px solid red;
+}
+button:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+#discount-display{
+    margin: 10px 0px 0px 0px;
+}

@@ -1,0 +1,260 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    box-shadow: 14rem 5px 50px rgb(29, 1, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5rem 5px 5rem;
+    background-color: #d2ac87;
+    z-index: 9;
+}
+header div{
+    display: flex;
+}
+header div h2{
+    margin: 0px;
+}
+header div h2 span{
+    color: red;
+    font-size: 16px;
+}
+header div ul{
+    display: flex;
+    margin: 0px;
+    font-size: 15px;
+    list-style-type: none;
+}
+header div a{
+    color: black;
+    text-decoration: none;
+    margin: 0px;
+}
+header div ul li{
+    font-size: 14px;
+    padding: 5px 25px 0px 25px ;
+    color: #472b23;
+    font-weight: 600;
+}
+header div ul li:hover{
+    color: white;
+    text-decoration: underline;
+}
+header div ul li i{
+    font-size: 14px;
+}
+#logout{
+    border: 0px;
+    background-color: transparent;
+}
+/* ==============================================Banner============================================== */
+#banner{
+    background-image: url(./image/bannerbackground.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    z-index: 1;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#banner h4{
+    margin: 0px;
+    margin-top: 11.2rem;
+    text-align: center;
+    color: white ;
+    font-size: 30px;
+}
+#banner h2{
+    margin: 0px;
+    text-align: center;
+    color: #461f15;
+    font-size: 50px;
+}
+#banner p{
+    text-align: center;
+    font-weight: 700;
+}
+#banner button{
+    padding: 7px 14px;
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    border: 0px;
+    border-radius: 4px;
+}
+#banner button:hover{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    box-shadow: 0px 0px 20px green;
+}
+/* ====================================Main==================================== */
+/* .shop-section{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.shop-section main{
+    width: 100%;
+    margin: auto;
+}
+.shop-section main h2{
+    text-align: center;
+    border-bottom: 1px double black;
+}
+.shop-section main div{
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+    gap: 1rem;
+  
+}
+.shop-section main div .box{
+    background-color: #d2ac87;
+    margin:1rem 1rem;
+    border-radius: 20px;
+}
+.shop-section main div .box:hover{
+    box-shadow: 0px 0px 50px #836343;
+    transform: scale(0.97);
+    background-color: white;
+}
+.shop-section main div .box .rating{
+    background-color: transparent;
+    border: 0px;
+    margin-left: 2rem; 
+}
+.shop-section main div .box img{
+    height: 250px;
+    width: 70%;
+    margin: 10px 2rem;
+    border-radius: 4px;
+}
+.shop-section main div nav h3,p{
+    margin: 10px;
+    margin-left: 2rem;   
+}
+.shop-section main div nav button{
+    padding: 7px 14px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border: 0px;
+    border-radius: 4px;
+    margin: 10px 0px 1rem 2rem;
+}
+.shop-section main div nav button:hover{
+    background-color: white;
+    color: red;
+    box-shadow: 0px 0px 10px red;
+}
+/* ====================================Footer==================================== */
+footer{
+    background-color: #d2ac87;
+}
+footer section{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+}
+footer div{
+    width: 30%;
+    margin: auto;
+}
+
+footer div a{
+    font-size: 20px;
+    color: #461f15;
+    padding: 0px 3px ;
+}
+footer div a:hover{
+    color: aliceblue;
+}
+footer div h2 span{
+    color: red;
+    font-size: 16px;
+}
+footer div h4{
+    margin: 0px;
+    padding-bottom: 10px;
+}
+footer div p{
+    padding-bottom: 10px;
+    color: #472b23;
+    margin: 0px;
+    font-weight: 550;
+}
+footer div #contact{
+    display: flex;
+    justify-content: center;
+}
+footer div ul{
+    list-style-type: none;
+    padding: 0px;
+}
+footer div li{
+    padding: 2px 0px;
+    width: 50%;
+}
+footer div li a{
+    text-decoration: none;
+    color: #472b23;
+    font-weight: 600;
+}
+footer div li a:hover{
+color: white;
+}
+
+@media(max-width:600px){
+    header{
+        box-shadow: 3rem 5px 50px rgb(29, 1, 1);
+        padding: 10px;
+    }
+    #banner{
+        height: 190px;
+    }
+    #banner h4{
+        margin-top: 4.3rem;
+        font-size: 10px;
+    }
+    #banner h2{
+        font-size: 21px;
+    }
+    #banner p{
+        text-align: center;
+        font-weight: 200;
+        font-size: 8px;
+        margin: 10px;
+    }
+    #banner button{
+        padding: 3.5px 7px;
+        font-size: 8px;
+    }
+    .shop-section main div{
+        display: block;
+        gap: 0px;
+    }
+    .shop-section main div .box{
+        margin:10px 0px;
+    }
+    footer section{
+        display: block;
+    }
+    footer div{
+        width:90%;
+        margin-left: 2rem;
+    }
+    footer div #contact{
+        display: flex;
+        justify-content: center;
+        margin-right: 4.5rem;
+    }
+    footer section #last{
+        text-align: center;
+    }
+}

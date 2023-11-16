@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart|Fashion Street</title>
+    <link rel="shortcut icon" href="./image/Favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c637b63244.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./cart.css">
+</head>
+<body>
+    <header>
+        <div><a href="./Home.html"><h2>Fashion<span>Street</span></h2></a></div>
+        <div>
+            <ul>
+                <a href="./cart.html"><li class="active"><i class="fa-solid fa-cart-shopping"> CART</i></li></a>
+                <a href="./login.html"><li><i class="fa-solid fa-user"> LOGIN</i></li></a>
+            </ul>
+        </div>
+    </header>
+    <section class="cart-section">
+        <table id="table">
+            <tr>
+                <th>Image</th>
+                <th>Item</th>
+                <th>Size</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>SubTotal</th>
+            </tr>
+        </table>
+    </section>
+    <section class="payment">
+        <h4>Add item to card</h4>
+        <hr>
+        <h6>Apply for coupons</h6>
+        <input type="text" id="apply-input" placeholder="Enter Coupon Code"><button onclick="coupons()" class="apply-button">Apply</button><br>
+        <h4 id="discount-display"></h4>
+        <button onclick="makepayment()">Make Payment</button>
+    </section>
+    
+    <footer>
+        <section>
+        <div>
+            
+        <h2>Fashion<span>Street</span></h2>
+        <h3>CONTACT</h3>
+        <nav id="contact">
+            <nav>
+                <h4>Address ::</h4><br>
+                <h4>Phone ::</h4> 
+                <h4>Email ::</h4>
+            </nav>
+            <nav>
+                <p style="padding: 0px;">Station Rd,Near Kunj Vihar</p>
+                <p >Jambli Naka,Thane West-400 601</p>
+                <p>+91 7020823933</p>
+                <p>hrithikgupta799@gmail.com</p>
+            </nav>
+        </nav>
+        
+         
+        <h3 style="margin-bottom: 5px;">Follow Us</h3>
+        <a style="padding-left: 0px;" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div>
+            <h3>About</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Delivery Information</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Condtion</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>My Accout</h3>
+            <ul>
+                <li><a href="./Sign_up.html">Sign Up</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./cart.html">View Cart</a></li>
+                <li><a href="#">Track my Order</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div></section>
+        <section style="border: 0px;">
+            <h4>@2023.HrithikGupta</h4>
+        </section>
+    </footer>
+    <script src="./cart.js"></script>
+</body>
+</html>
