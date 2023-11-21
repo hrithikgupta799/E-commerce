@@ -101,3 +101,17 @@ button:hover{
 #discount-display{
     margin: 10px 0px 0px 0px;
 }
+
+@media(max-width:600px){
+.cart-section{
+    width:80%;
+    margin:auto;
+}
+    table th{
+    font-size: 14px;
+   
+}
+    table tr{
+    font-size:10px;
+}
+}
