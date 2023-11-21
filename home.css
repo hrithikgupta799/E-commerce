@@ -248,7 +248,11 @@ color: white;
     footer div{
         width:90%;
         margin-left: 2rem;
+        
     }
+    footer div a{
+    font-size: 12px;
+}
     footer div #contact{
         display: flex;
         justify-content: center;
